@@ -7,19 +7,22 @@ function App() {
   const [num1, setNum1] = useState(null);
   const [num2, setNum2] = useState(null);
   const [op, setOp] = useState(null);
+  let ans = null;
   function getPad1(value){
     setNum1(value);
+    ans = eval(num1+op+num2)
     console.log(value);
   }
   function getPad2(value){
     setOp(value);
+    ans = eval(num1+op+num2)
     console.log(value);
   }
   function getOp(value){
     setNum2(value);
+    ans = eval(num1+op+num2)
     console.log(value);
   }
-  const ans = 5;
 
   return (
     <>
