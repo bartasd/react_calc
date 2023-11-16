@@ -1,20 +1,19 @@
 import style from "./Controls.module.css";
 import { Button } from "./Button";
 
-export function Controls({ onData }){
+export function Controls( {ragelis} ){
 
-    const sendDataToParent = (num) => {
-        console.log(num)
-        onData(num);
-    };
+    function getOperation(value){
+        ragelis(value);
+    }
 
     return (
         <>
         <div className={style.box}>
-            <Button onClick={sendDataToParent("+")} className={style.a} text={"+"}/>
-            <Button onClick={sendDataToParent("-")} className={style.b} text={"-"}/>
-            <Button onClick={sendDataToParent("*")} className={style.c} text={"*"}/>
-            <Button onClick={sendDataToParent("/")} className={style.d} text={"/"}/>
+            <Button st={"a"} op={"+"} telefonas={getOperation} />
+            <Button st={"a"} op={"-"} telefonas={getOperation} />
+            <Button st={"a"} op={"*"} telefonas={getOperation} />
+            <Button st={"a"} op={"/"} telefonas={getOperation} />
         </div>
         </>
     );

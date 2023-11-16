@@ -6,3 +6,11 @@
     font-family: 'Gill Sans';
     color: white;
 }
+
+.a{
+    grid-area: a;
+}
+
+.b { 
+    grid-area: b;
+}

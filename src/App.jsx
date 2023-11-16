@@ -7,27 +7,30 @@ function App() {
   const [num1, setNum1] = useState(null);
   const [num2, setNum2] = useState(null);
   const [op, setOp] = useState(null);
-  const handlePad1 = (data) => setNum1(data);
-  const handlePad2 = (data) => setNum2(data);
-  const handleControls = (data) => setOp(data);
-  const getAns = () => {
-    if(op === "+") return +num1 + +num2;
-    else if(op === "-") return +num1-(+num2);
-    else if(op === "*") return +num1*(+num2);
-    else if(op === "/" && num2 !== "0") return (+num1)/(+num2);
-    else return "Please choose second number not 0";
+  function getPad1(value){
+    setNum1(value);
+    console.log(value);
   }
+  function getPad2(value){
+    setOp(value);
+    console.log(value);
+  }
+  function getOp(value){
+    setNum2(value);
+    console.log(value);
+  }
+  const ans = 5;
 
   return (
     <>
       <div className={style.field}>
         <div className={style.tools}>
-          <Pad onData={handlePad1}/>
-          <Controls onData={handleControls}/>
-          <Pad onData={handlePad2}/>
+          <Pad telefonas={getPad1} />
+          <Controls telefonas={getOp} />
+          <Pad telefonas={getPad2} />
         </div>
       <h1 className={style.result}>RESULT:</h1>
-      <p className={style.answer}>{getAns}</p>
+      <p className={style.answer}>{ans}</p>
       </div>
     </>
   );

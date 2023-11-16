@@ -9,12 +9,8 @@
     row-gap: 15px;
     overflow: hidden;
     grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . ."
-    ". j .";
-}
-
-.j { 
-    grid-area: j;
+    "a a a"
+    "a a a"
+    "a a a"
+    ". b .";
 }
