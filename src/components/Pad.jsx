@@ -10,16 +10,16 @@ export function Pad( {telefonas} ){
     return (
         <>
         <div className={style.box}>
-            <Button id={"a"} value={"1"} phone={getDigit} />
-            <Button id={"b"} value={"2"} phone={getDigit} />
-            <Button id={"c"} value={"3"} phone={getDigit} />
-            <Button id={"d"} value={"4"} phone={getDigit} />
-            <Button id={"e"} value={"5"} phone={getDigit} />
-            <Button id={"f"} value={"6"} phone={getDigit} />
-            <Button id={"g"} value={"7"} phone={getDigit} />
-            <Button id={"h"} value={"8"} phone={getDigit} />
-            <Button id={"j"} value={"9"} phone={getDigit} />
-            <Button id={"k"} value={"0"} phone={getDigit} />
+            <Button className={"a"} value={"1"} phone={getDigit} />
+            <Button className={"b"} value={"2"} phone={getDigit} />
+            <Button className={"c"} value={"3"} phone={getDigit} />
+            <Button className={"d"} value={"4"} phone={getDigit} />
+            <Button className={"e"} value={"5"} phone={getDigit} />
+            <Button className={"f"} value={"6"} phone={getDigit} />
+            <Button className={"g"} value={"7"} phone={getDigit} />
+            <Button className={"h"} value={"8"} phone={getDigit} />
+            <Button className={"j"} value={"9"} phone={getDigit} />
+            <Button className={"k"} value={"0"} phone={getDigit} />
         </div>
         </>
     );

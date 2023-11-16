@@ -4,7 +4,6 @@
     background-color: rgb(165, 191, 206);
     border-radius: 20px;
     display: grid;
-
     column-gap: 13px;
     row-gap: 15px;
     overflow: hidden;
@@ -14,14 +13,13 @@
     "g h j"
     ". k .";
 }
-
-#a{ grid-area: a; }
-#b{ grid-area: b; }
-#c{ grid-area: c; }
-#d{ grid-area: d; }
-#e{ grid-area: e; }
-#f{ grid-area: f; }
-#g{ grid-area: g; }
-#h{ grid-area: h; }
-#j{ grid-area: j; }
-#k{ grid-area: k; }
+.a{ grid-area: a; }
+.b{ grid-area: b; }
+.c{ grid-area: c; }
+.d{ grid-area: d; }
+.e{ grid-area: e; }
+.f{ grid-area: f; }
+.g{ grid-area: g; }
+.h{ grid-area: h; }
+.j{ grid-area: j; }
+.k{ grid-area: k; }
