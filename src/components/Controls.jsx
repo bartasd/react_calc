@@ -10,10 +10,10 @@ export function Controls( {ragelis} ){
     return (
         <>
         <div className={style.box}>
-            <Button st={"a"} op={"+"} telefonas={getOperation} />
-            <Button st={"a"} op={"-"} telefonas={getOperation} />
-            <Button st={"a"} op={"*"} telefonas={getOperation} />
-            <Button st={"a"} op={"/"} telefonas={getOperation} />
+            <Button st={"a"} value={"+"} phone={getOperation} />
+            <Button st={"a"} value={"-"} phone={getOperation} />
+            <Button st={"a"} value={"*"} phone={getOperation} />
+            <Button st={"a"} value={"/"} phone={getOperation} />
         </div>
         </>
     );
