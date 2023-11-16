@@ -4,13 +4,5 @@
     background-color: rgb(32, 72, 105);
     font-size: 36px;
     font-family: 'Gill Sans';
-    color: white;
-}
-
-.a{
-    grid-area: a;
-}
-
-.b { 
-    grid-area: b;
+    color: white
 }

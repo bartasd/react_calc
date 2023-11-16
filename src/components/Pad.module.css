@@ -9,8 +9,19 @@
     row-gap: 15px;
     overflow: hidden;
     grid-template-areas:
-    "a a a"
-    "a a a"
-    "a a a"
-    ". b .";
+    "a b c"
+    "d e f"
+    "g h k"
+    ". l .";
 }
+
+#a{ grid-area: a; }
+#b{ grid-area: b; }
+#c{ grid-area: c; }
+#d{ grid-area: d; }
+#e{ grid-area: e; }
+#f{ grid-area: f; }
+#g{ grid-area: g; }
+#h{ grid-area: h; }
+#k{ grid-area: k; }
+#l{ grid-area: l; }

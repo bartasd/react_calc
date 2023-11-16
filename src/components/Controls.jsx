@@ -1,19 +1,19 @@
 import style from "./Controls.module.css";
 import { Button } from "./Button";
 
-export function Controls( {ragelis} ){
+export function Controls( {telefonas} ){
 
     function getOperation(value){
-        ragelis(value);
+        telefonas(value);
     }
 
     return (
         <>
         <div className={style.box}>
-            <Button st={"a"} value={"+"} phone={getOperation} />
-            <Button st={"a"} value={"-"} phone={getOperation} />
-            <Button st={"a"} value={"*"} phone={getOperation} />
-            <Button st={"a"} value={"/"} phone={getOperation} />
+            <Button id={"a"} value={"+"} phone={getOperation} />
+            <Button id={"b"} value={"-"} phone={getOperation} />
+            <Button id={"c"} value={"*"} phone={getOperation} />
+            <Button id={"d"} value={"/"} phone={getOperation} />
         </div>
         </>
     );

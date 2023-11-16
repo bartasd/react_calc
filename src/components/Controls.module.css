@@ -8,7 +8,11 @@
     overflow: hidden;
     grid-template-areas:
     "a"
-    "a"
-    "a"
-    "a";
+    "b"
+    "c"
+    "d";
 }
+#a{ grid-area: a; }
+#b{ grid-area: b; }
+#c{ grid-area: c; }
+#d{ grid-area: d; }
