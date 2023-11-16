@@ -5,7 +5,7 @@ export function Button(props){
     {
         props.phone(props.value);
     }
-    console.log("button style: ", props.value);
+    console.log("PROPSAS YRA: ", props);
     return <button className={"button " + props.st} onClick={on}>{props.value}</button>
 }
 
