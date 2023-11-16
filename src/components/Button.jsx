@@ -9,5 +9,5 @@ export function Button(props){
         setActive(!isActive);
     }
 
-    return <button className={style.button + ' ' + props.className} onClick={on}>{props.value}</button>
+    return <button className={isActive?(style.button + ' ' + style.buttonActive + ' ' + props.className):(style.button + ' ' + props.className)} onClick={on}>{props.value}</button>
 }
