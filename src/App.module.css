@@ -1,0 +1,32 @@
+.field{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(75, 66, 61);
+    margin-left: calc(50% - 400px);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px 25px 0 0;
+    overflow: hidden;
+}
+
+.tools{
+    background-color: rgb(88, 86, 83);
+    height: 450px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 25px 25px;
+}
+
+.result{
+    color: rgb(123, 197, 219);
+    font-size: 40px;
+}
+
+.answer{
+    color: rgb(155, 120, 160);
+    font-size: 28px;
+}
