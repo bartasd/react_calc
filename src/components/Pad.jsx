@@ -1,19 +1,10 @@
-//import React, { useState } from 'react';
 import style from "./Pad.module.css";
 import { Button } from "./Button"
 
 export function Pad( {telefonas} ){
-    // implement when the digit is hit, to change it's color
-    /*
-    const [num1, setNum1] = useState(null);
-
-    function setActiveButton(value){
-
-    }*/
 
     function getDigit(value){
         telefonas(value);
-        //setActiveButton(value);
     }
 
     return (

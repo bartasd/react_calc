@@ -11,8 +11,8 @@
     grid-template-areas:
     "a b c"
     "d e f"
-    "g h k"
-    ". l .";
+    "g h j"
+    ". k .";
 }
 
 #a{ grid-area: a; }
@@ -23,5 +23,5 @@
 #f{ grid-area: f; }
 #g{ grid-area: g; }
 #h{ grid-area: h; }
+#j{ grid-area: j; }
 #k{ grid-area: k; }
-#l{ grid-area: l; }
