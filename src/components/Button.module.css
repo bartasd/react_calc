@@ -6,7 +6,7 @@
     font-family: 'Gill Sans';
     color: white
 }
-.buttonActive{
+.active{
     height: 100%;
     width: 100%;
     background-color: rgb(199, 66, 13);
